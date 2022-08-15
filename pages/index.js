@@ -5,7 +5,14 @@ import LotteryEntrance from '../components/LotteryEntrance'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div
+      className='
+        h-screen
+        bg-gradient-to-r 
+      from-purple-500 
+      to-pink-500
+      '
+    >
       <Head>
         <title>Decentralized Raffle</title>
         <meta name='description' content='Smart contract raffle' />
